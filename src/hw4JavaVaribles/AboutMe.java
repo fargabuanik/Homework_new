@@ -14,7 +14,7 @@ public class AboutMe {
 	public boolean usCitizen;
 	//Constructor declared
 	public AboutMe() {
-	System.out.println("this all about us");
+	System.out.println("this all about us"); // Hi
 	
  }	
 	public void Aboutme() {
