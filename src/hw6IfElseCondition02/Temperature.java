@@ -1,7 +1,6 @@
 package hw6IfElseCondition02;
 
 import java.util.Scanner;
-
 public class Temperature {
 	public static void main(String[] args) {
 		System.out.println("today Temperature :");
