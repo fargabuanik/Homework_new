@@ -5,7 +5,7 @@ package hw8Inheritance;
 Create*/
 public class Animal {
 	public void animalInfo() {
-		System.out.println("This method is from Animal Class");
+		System.out.println("This method is from Animal Class"); // Parent class
 		
 		
 	}

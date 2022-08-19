@@ -4,7 +4,7 @@ package hw8Inheritance;
 //extends keyword allows only one inheritance, not more than one
 public class Robin extends Birds{
 	public void robinInfo() {
-		System.out.println("This method is from Robin Class");
+		System.out.println("This method is from Robin Class"); //child class
 		
 	}
 

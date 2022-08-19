@@ -33,7 +33,7 @@ System.out.println("\n---------------------\n");
 
 
 		System.out.println("\n------------------------\n");
-		Dog dog =new Dog(); // Multilevel inheritance ==
+		Dog dog =new Dog(); // Multilevel inheritance 
 		dog.dogInfo();
 		dog.animalInfo();
 		dog.mammalInfo();
