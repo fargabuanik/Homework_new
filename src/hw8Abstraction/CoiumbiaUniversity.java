@@ -6,10 +6,7 @@ public class CoiumbiaUniversity {
 		//we can't Create abstract class in regular class because regular class not allow abstract methods
 	}
 	public CoiumbiaUniversity() {
-		
 	}
-	
-	}
+}
 
 
-   

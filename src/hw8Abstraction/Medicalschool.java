@@ -5,13 +5,9 @@ public abstract class Medicalschool {
 	public void biochemistryLab() {
 		System.out.println("this is non abstract method");
 	}
-		
 	public Medicalschool() {
-		
+
 	}
-	
-	
-	
 }
 
 

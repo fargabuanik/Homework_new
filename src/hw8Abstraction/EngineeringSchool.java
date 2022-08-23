@@ -5,6 +5,4 @@ public abstract class EngineeringSchool {
 	public void computerLab() {
 		
 	}
-	
-
 }

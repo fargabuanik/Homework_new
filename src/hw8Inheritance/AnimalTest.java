@@ -2,12 +2,11 @@ package hw8Inheritance;
 
 public class AnimalTest {
 	public static void main(String[] args) {
-
 		System.out.println("\n----------------------\n"); 
 		Animal animal = new Animal(); //Here is Animal class single inheritance parent class 
 		animal.animalInfo();
-	
-System.out.println("\n---------------------\n");
+
+		System.out.println("\n---------------------\n");
 		BullDog bullDog = new BullDog(); //Multilevel inheritance class
 		bullDog.bullDogInfo();
 		bullDog.animalInfo();
@@ -18,19 +17,15 @@ System.out.println("\n---------------------\n");
 		mammal.mammalInfo();
 		mammal.animalInfo();
 
-
-
 		System.out.println("\n--------------------\n");
 		Reptile reptile = new Reptile(); // Multilevel  inheritance and hierarchical
 		reptile.reptileInfo();
 		reptile.animalInfo();
 
-
 		System.out.println("\n------------------------\n");
 		Birds birds = new Birds(); // Multilevel  inheritance and hierarchical
 		birds.birdsInfo();
 		birds.animalInfo();
-
 
 		System.out.println("\n------------------------\n");
 		Dog dog =new Dog(); // Multilevel inheritance 
@@ -49,8 +44,6 @@ System.out.println("\n---------------------\n");
 		robin.robinInfo();
 		robin.birdsInfo();
 		robin.animalInfo();
-
-
 
 		System.out.println("\n-------------------------\n");
 		Cobra cobra = new Cobra(); // Multilevel inheritance 

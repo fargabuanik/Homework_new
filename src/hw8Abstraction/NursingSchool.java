@@ -5,5 +5,4 @@ public abstract class NursingSchool {
 	public void caring() {
 		
 	}
-
 }
