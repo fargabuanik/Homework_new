@@ -7,7 +7,7 @@ import hw8Abstraction.NursingSchool;
 //implements keyword is used to inherit Interface in abstract class
 //an abstract class can inherit more than one Interface
 //an abstract class cannot inherit a regular class or abstract class by implements keyword
-//Three class can call possible in abstract class.
+//Three class can call possible in abstract class by using implements keyword.
 public abstract class Medicalschool extends NursingSchool{
 	public abstract void anatomyLab();
 	public void biochemistryLab() {
