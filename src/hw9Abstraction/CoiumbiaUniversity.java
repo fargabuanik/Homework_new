@@ -24,6 +24,11 @@ public class CoiumbiaUniversity extends Medicalschool {
 		// TODO Auto-generated method stub
 		
 	}
+	@Override
+	public void lowInfo() {
+		// TODO Auto-generated method stub
+		
+	}
 
 }
 

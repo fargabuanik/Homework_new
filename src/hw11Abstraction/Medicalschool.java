@@ -1,6 +1,5 @@
-package hw9Abstraction;
+package hw11Abstraction;
 
-import hw11Abstraction.LowSchool;
 import hw8Abstraction.NursingSchool;
 
 //an abstract class can inherit only one abstract class or one regular class by extends keyWord

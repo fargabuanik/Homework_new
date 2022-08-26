@@ -2,6 +2,6 @@ package hw8Abstraction;
 
 public class RockefellerUniversity {
 	public void maths() {
-		System.out.println("this is non abstract mathod");
+		System.out.println("this is non abstract mathod from RockefellerUniversity ");
 	}
 }
