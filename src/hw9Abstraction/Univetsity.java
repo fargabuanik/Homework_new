@@ -1,9 +1,9 @@
 package hw9Abstraction;
 
-//One keyword use to inheritance in interface
-//An Interface can't inherit a regular class or an abstract class by extends keyword
-//An Interface can inherit more than one Interface  by extends keyword
-//implements keyword can't be used for inheritance inside Interface
+/*One keyword use to inheritance in interface
+An Interface can't inherit a regular class or an abstract class by extends keyword
+An Interface can inherit more than one Interface  by extends keyword
+implements keyword can't be used for inheritance inside Interface*/
 
 public interface Univetsity extends College,Hospital {
 	public void classSize();

@@ -1,6 +1,6 @@
 package hw9Abstraction;
 
-public interface LowSchool {
+public interface LawSchool {
 	 public  void lowInfo() ;
 	   
    
