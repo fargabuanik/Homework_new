@@ -1,4 +1,4 @@
-package hw10UseOfSuper;
+package hw10UseOfSuperInChildClasss;
 
 public class TestFamily {
 	public static void main(String[] args) {

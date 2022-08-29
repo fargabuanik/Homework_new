@@ -1,4 +1,4 @@
-package hw10UseOfSuper;
+package hw10UseOfSuperInChildClasss;
 
 //declare variable
 public class Father {

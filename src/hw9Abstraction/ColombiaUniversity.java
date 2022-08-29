@@ -6,30 +6,32 @@ implements keyword is used to inherit Interface in regular class.
 *a regular class can inherit more than one Interface
 *a regular class cannot inherit a regular class or abstract class by implements keyword*/
 
-public class CoiumbiaUniversity extends Medicalschool {
+public class ColombiaUniversity extends Medicalschool {
 	public void biology() {
 		System.out.println("this not abstract method");
 	}
-	public CoiumbiaUniversity() {
-		
+
+	public ColombiaUniversity() {
+
 		// Default methods are allowed only in interfaces, not in regular class
 	}
+
 	@Override
 	public void anatomyLab() {
 		// TODO Auto-generated method stub
-		
+
 	}
+
 	@Override
 	public void hygiene() {
 		// TODO Auto-generated method stub
-		
+
 	}
+
 	@Override
 	public void lowInfo() {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 }
-
-
