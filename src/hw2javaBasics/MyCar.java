@@ -7,8 +7,5 @@ public class MyCar {
 		System.out.println("I love to drive my car, it's white color, Honda accord 2022 Front wheel drive");
 		System.out.println("------------------------------------------------------------");
 		System.out.println("\tI love to drive my car \nit's white color, Honda accord 2022 \nFront wheel drive");
-
-	
 	}
-
 }

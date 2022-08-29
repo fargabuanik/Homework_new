@@ -7,7 +7,6 @@ public class Student {
 	public float stgrade;
 	public boolean stProgrammer;
 
-	
 	public Student() {
 		System.out.println("This is default constructor is form Student Class");
 			
@@ -15,8 +14,7 @@ public class Student {
 	public Student(String stname){
 		this.stname=stname;
 		System.out.println("My name is " + stname );
-		
-	}
+		}
 	
 	public Student( String stname, int stID, char stSex,  float stgrade, boolean stProgrammer){
 		this.stname = stname;
@@ -27,5 +25,4 @@ public class Student {
 		System.out.println( "This Student name is:"+ stname + " Student stID is: " + stID + "Student sex is: " + stSex +  "Student stgrade" + stgrade + "stProgrammer: " + stProgrammer ); 
 		
 		}
-	
 }

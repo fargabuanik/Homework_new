@@ -75,11 +75,16 @@ public class CoiumbiaUniversity extends Medicalschool implements Univetsity,Voca
 		
 	}
 	@Override
-	public void lowInfo() {
+	public void lawInfo1() {
 		// TODO Auto-generated method stub
 		
 	}
 	public void coiumbiaUniverstiyInfo() {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void lawInfo() {
 		// TODO Auto-generated method stub
 		
 	}

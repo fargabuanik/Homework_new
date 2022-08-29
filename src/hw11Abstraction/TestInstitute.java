@@ -22,7 +22,7 @@ public class TestInstitute {
 	coiumbiaUniversity.playGround();
 	coiumbiaUniversity.surgeryRomm();
 	coiumbiaUniversity.teacher();
-	coiumbiaUniversity.lowInfo();
+	coiumbiaUniversity.lawInfo();
 	
 	System.out.println("interface Univetsity");
 	Univetsity univetsity = new Univetsity() {

@@ -8,18 +8,13 @@ import hw8Abstraction.NursingSchool;
 //an abstract class can inherit more than one Interface
 //an abstract class cannot inherit a regular class or abstract class by implements keyword
 //Three class can call possible in abstract class by using implements keyword.
-public abstract class Medicalschool extends NursingSchool implements LowSchool{
+public abstract class Medicalschool extends NursingSchool implements LawSchool{
 	public abstract void anatomyLab();
 	public void biochemistryLab() {
 		System.out.println("this is non abstract method");
 	}
-		
-	public Medicalschool() {
-		
-	}
-	
-	
-	
+	public Medicalschool() {	
+	}	
 }
 
 
