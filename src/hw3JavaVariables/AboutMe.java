@@ -19,7 +19,7 @@ public class AboutMe {
 		AboutMe aboutMe=new AboutMe(); 
 
 
-		System.out.println("My Name : " + aboutMe.name +"\nMy age is : "+aboutMe.age +"\nMy Rent : "+aboutMe.myRent+ "\nMy Yearly Salary : " +aboutMe.myYearlySalary + " \nMy savings : " +aboutMe.mySavings + "\nMy Height : " +aboutMe.myHeight  + "\nMy Grade : "+aboutMe.myGrade + " \nMy Sex : " +aboutMe.mySex + "\nI am a US Citizen : " +aboutMe.usCitizen);
+		System.out.println("My Name is : " + aboutMe.name +"\nMy age is : "+aboutMe.age +"\nMy Rent : "+aboutMe.myRent+ "\nMy Yearly Salary : " +aboutMe.myYearlySalary + " \nMy savings : " +aboutMe.mySavings + "\nMy Height : " +aboutMe.myHeight  + "\nMy Grade : "+aboutMe.myGrade + " \nMy Sex : " +aboutMe.mySex + "\nI am a US Citizen : " +aboutMe.usCitizen);
 
 	}
 
