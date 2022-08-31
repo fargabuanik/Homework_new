@@ -6,24 +6,14 @@ implements keyword is used to inherit Interface in regular class.
 *a regular class can inherit more than one Interface
 *a regular class cannot inherit a regular class or abstract class by implements keyword*/
 
-public class CoiumbiaUniversity extends Medicalschool implements Univetsity,Vocationalschool {
+public class ColumbiaUniversity extends Medicalschool implements Univetsity,Vocationalschool {
 	public void biology() {
-		System.out.println("this not abstract method");
+		System.out.println("this is non abstract method");
 	}
-	public CoiumbiaUniversity() {
+	public ColumbiaUniversity() {
 		
 		// Default methods are allowed only in interfaces, not in regular class
-	}
-	@Override
-	public void anatomyLab() {
-		// TODO Auto-generated method stub
-		
-	}
-	@Override
-	public void hygiene() {
-		// TODO Auto-generated method stub
-		
-	}
+}
 	@Override
 	public void commonRoom() {
 		// TODO Auto-generated method stub
@@ -31,6 +21,10 @@ public class CoiumbiaUniversity extends Medicalschool implements Univetsity,Voca
 	}
 	@Override
 	public void laboratory() {
+		// TODO Auto-generated method stub
+		
+	}
+	public void columbiaUniverstiyInfo() {
 		// TODO Auto-generated method stub
 		
 	}
@@ -55,6 +49,16 @@ public class CoiumbiaUniversity extends Medicalschool implements Univetsity,Voca
 		
 	}
 	@Override
+	public void lawInfo() {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void lawInfo1() {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
 	public void voactionalInfo() {
 		// TODO Auto-generated method stub
 		
@@ -75,20 +79,13 @@ public class CoiumbiaUniversity extends Medicalschool implements Univetsity,Voca
 		
 	}
 	@Override
-	public void lawInfo1() {
-		// TODO Auto-generated method stub
-		
-	}
-	public void coiumbiaUniverstiyInfo() {
+	public void anatomyLab() {
 		// TODO Auto-generated method stub
 		
 	}
 	@Override
-	public void lawInfo() {
+	public void hygiene() {
 		// TODO Auto-generated method stub
 		
 	}
-
 }
-
-

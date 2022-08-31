@@ -6,14 +6,15 @@ package hw11Abstraction;
 //implements keyword can't be used for inheritance inside Interface
 
 public interface Univetsity extends College,Hospital {
-	Univetsity univetsity = null;
 	public void classSize();
 	public void playGround();
 	public void teacher();
 
 	default void gymnasium() {
+		System.out.println("This default method gymnasium from University Interface");
 	}
 	public static void library() {
+		System.out.println("This static method library from University Interface");
 	}
 
 }

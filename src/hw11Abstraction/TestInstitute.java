@@ -2,85 +2,33 @@ package hw11Abstraction;
 
 public class TestInstitute {
 	public static void main(String[] args) {
-	System.out.println("Raglur class CoiumbiaUniversity");
-	CoiumbiaUniversity coiumbiaUniversity = new CoiumbiaUniversity();
-	coiumbiaUniversity.coiumbiaUniverstiyInfo();
-	coiumbiaUniversity.anatomyLab();
-	coiumbiaUniversity.biochemistryLab();
-	coiumbiaUniversity.biology();
-	coiumbiaUniversity.cafeteria();
-	coiumbiaUniversity.caring();
-	coiumbiaUniversity.classSize();
-	coiumbiaUniversity.commonRoom();
-	coiumbiaUniversity.dorm();
-	coiumbiaUniversity.emergencyRoom();
-	coiumbiaUniversity.gymnasium();
-	coiumbiaUniversity.hygiene();
-	coiumbiaUniversity.laboratory();
-	coiumbiaUniversity.lanauageClub();
-	coiumbiaUniversity.morgue();
-	coiumbiaUniversity.playGround();
-	coiumbiaUniversity.surgeryRomm();
-	coiumbiaUniversity.teacher();
-	coiumbiaUniversity.lawInfo();
+		System.out.println("\n Regular class ColumbiaUniversity -\n");
+		ColumbiaUniversity columbiaUniversity = new ColumbiaUniversity();
+		columbiaUniversity.columbiaUniverstiyInfo();
+		columbiaUniversity.anatomyLab();
+		columbiaUniversity.biochemistryLab();
+		columbiaUniversity.biology();
+		columbiaUniversity.cafeteria();
+		columbiaUniversity.caring();
+		columbiaUniversity.classSize();
+		columbiaUniversity.commonRoom();
+		columbiaUniversity.dorm();
+		columbiaUniversity.emergencyRoom();
+		columbiaUniversity.gymnasium();
+		columbiaUniversity.hygiene();
+		columbiaUniversity.laboratory(); //static method of Interface can't be call by object of a regular class
+		columbiaUniversity.lanauageClub();
+		columbiaUniversity.morgue();
+		columbiaUniversity.playGround();
+		columbiaUniversity.surgeryRomm();
+		columbiaUniversity.teacher();
+		columbiaUniversity.lawInfo();
+		System.out.println();
 	
-	System.out.println("interface Univetsity");
-	Univetsity univetsity = new Univetsity() {
-		
-		@Override
-		public void surgeryRomm() {
-			// TODO Auto-generated method stub
-			
-		}
-		
-		@Override
-		public void emergencyRoom() {
-			// TODO Auto-generated method stub
-			
-		}
-		
-		@Override
-		public void cafeteria() {
-			// TODO Auto-generated method stub
-			
-		}
-		
-		@Override
-		public void lanauageClub() {
-			// TODO Auto-generated method stub
-			
-		}
-		
-		@Override
-		public void laboratory() {
-			// TODO Auto-generated method stub
-			
-		}
-		
-		@Override
-		public void commonRoom() {
-			// TODO Auto-generated method stub
-			
-		}
-		
-		@Override
-		public void teacher() {
-			// TODO Auto-generated method stub
-			
-		}
-		
-		@Override
-		public void playGround() {
-			// TODO Auto-generated method stub
-			
-		}
-		
-		@Override
-		public void classSize() {
-			// TODO Auto-generated method stub
-			
-		}
-	};
+
 	
-}
-}
+
+		
+
+	}
+	}
