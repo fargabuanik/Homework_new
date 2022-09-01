@@ -30,7 +30,5 @@ public class Father {
 		this.sex = sex;
 		this.usCitizen = usCitizen;
 		System.out.println("Father name : " + name + ",\n Father age : " + age + ",\n Father sex " + sex + ",\nusCitizen : " + usCitizen);
-
 	}
-
 }

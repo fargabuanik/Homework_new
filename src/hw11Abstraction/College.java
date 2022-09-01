@@ -5,11 +5,8 @@ public interface College {
 	public abstract void laboratory();
 	public void lanauageClub();
 
-	default void dorm() {
-		
+	default void dorm() {	
 	}
 	public static void studyRoom() {
-		
-	}
-	
+	}	
 }

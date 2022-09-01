@@ -16,19 +16,35 @@ public class TestInstitute {
 		columbiaUniversity.emergencyRoom();
 		columbiaUniversity.gymnasium();
 		columbiaUniversity.hygiene();
-		columbiaUniversity.laboratory(); //static method of Interface can't be call by object of a regular class
+		columbiaUniversity.laboratory();
 		columbiaUniversity.lanauageClub();
 		columbiaUniversity.morgue();
 		columbiaUniversity.playGround();
 		columbiaUniversity.surgeryRomm();
 		columbiaUniversity.teacher();
 		columbiaUniversity.lawInfo();
-		System.out.println();
-	
-
-	
-
-		
-
+		columbiaUniversity.lawInfo1();
+		System.out.println("\n interface class Univercity");
+		University university = new ColumbiaUniversity();
+		university.cafeteria();
+		university.classSize();
+		university.commonRoom();
+		university.dorm();
+		university.emergencyRoom();
+		university.gymnasium();
+		university.laboratory();
+		university.lanauageClub();
+		university.morgue();
+		university.playGround();
+		university.surgeryRomm();
+		university.teacher();
+		System.out.println("\nabstract class Medicalschol ");
+		Medicalschool medicalschol = new ColumbiaUniversity();
+		medicalschol.anatomyLab();
+		medicalschol.biochemistryLab();
+		medicalschol.caring();
+		medicalschol.hygiene();
+		medicalschol.lawInfo();	
+		medicalschol.lawInfo1();
 	}
-	}
+}

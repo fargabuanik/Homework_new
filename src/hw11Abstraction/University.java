@@ -5,7 +5,7 @@ package hw11Abstraction;
 //An Interface can inherit more than one Interface  by extends keyword
 //implements keyword can't be used for inheritance inside Interface
 
-public interface Univetsity extends College,Hospital {
+public interface University extends College,Hospital {
 	public void classSize();
 	public void playGround();
 	public void teacher();
@@ -16,5 +16,4 @@ public interface Univetsity extends College,Hospital {
 	public static void library() {
 		System.out.println("This static method library from University Interface");
 	}
-
 }
