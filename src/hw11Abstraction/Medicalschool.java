@@ -1,7 +1,5 @@
 package hw11Abstraction;
 
-import hw8Abstraction.NursingSchool;
-
 //an abstract class can inherit only one abstract class or one regular class by extends keyWord
 //An abstract class can't inherit an Interface by extends key word
 //implements keyword is used to inherit Interface in abstract class

@@ -25,7 +25,7 @@ public class Daughter extends Father {
 		super.fatherInfo("shab", 62, 'M', false);
 		super.familyName = "uddin";
 		System.out.println("father Family name is" + familyName);
-		System.out.println("this void type method from dauther class");
+		System.out.println("this void type method from daughter class");
 	}
 
 	public void daughterInfo(String birthMonth, int age) {
