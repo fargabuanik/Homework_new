@@ -12,6 +12,7 @@ public class TestInstitute {
 		columbiaUniversity.caring();
 		columbiaUniversity.classSize();
 		columbiaUniversity.commonRoom();
+		columbiaUniversity.computerLab();
 		columbiaUniversity.dorm();
 		columbiaUniversity.emergencyRoom();
 		columbiaUniversity.gymnasium();
@@ -19,6 +20,8 @@ public class TestInstitute {
 		columbiaUniversity.laboratory();
 		columbiaUniversity.lanauageClub();
 		columbiaUniversity.morgue();
+		columbiaUniversity.mechanicalLab();
+		columbiaUniversity.maths();
 		columbiaUniversity.playGround();
 		columbiaUniversity.surgeryRomm();
 		columbiaUniversity.teacher();
@@ -39,12 +42,17 @@ public class TestInstitute {
 		university.surgeryRomm();
 		university.teacher();
 		System.out.println("\nabstract class Medicalschol ");
-		Medicalschool medicalschol = new ColumbiaUniversity();
-		medicalschol.anatomyLab();
-		medicalschol.biochemistryLab();
-		medicalschol.caring();
-		medicalschol.hygiene();
-		medicalschol.lawInfo();	
-		medicalschol.lawInfo1();
+		Medicalschool medicalschool = new ColumbiaUniversity();
+		medicalschool.anatomyLab();
+		medicalschool.anthropology();
+		medicalschool.biochemistryLab();
+		medicalschool.caring();
+		medicalschool.computerLab();
+		medicalschool.hygiene();
+		medicalschool.lawInfo();	
+		medicalschool.lawInfo1();
+		medicalschool.hygiene();
+		medicalschool.maths();
+		medicalschool.mechanicalLab();
 	}
 }
